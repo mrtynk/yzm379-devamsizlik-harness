@@ -1,5 +1,7 @@
 # YZM379 - Devamsızlık Kural Motoru ve Agent Harness
 
+[![CI](https://github.com/mrtynk/yzm379-devamsizlik-harness/actions/workflows/ci.yml/badge.svg)](https://github.com/mrtynk/yzm379-devamsizlik-harness/actions/workflows/ci.yml)
+
 Ruby 3.4 ve yalnız standart kütüphane/Minitest kullanılarak hazırlanmış öğrenci devamsızlık kural motorudur. Çalışmanın odağı yalnız kod değil; rehber, sensör, doğrulama kancası ve gerçek A/B ölçümünden oluşan harness'tır.
 
 ## Kurallar
