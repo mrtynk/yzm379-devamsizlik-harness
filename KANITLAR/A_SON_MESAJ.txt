@@ -1,0 +1,1 @@
+Kontrolü yapabilmem için öğrenci devamsızlık verisini içeren Excel/CSV dosyasını yükleyin. Toplam ders saati ve her öğrencinin devamsızlık saati bulunmalı; ardından %30 ve üzerindekileri listeleyeceğim.

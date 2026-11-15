@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+
+if grep -R -n -E 'method_missing|class[[:space:]]+(Date|String|Array|Hash|Integer)' lib; then
+  echo "Yasakli dinamik metot veya monkey patch bulundu." >&2
+  exit 2
+fi
+
+ruby test/ogrenci_test.rb >&2 || exit 2

@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+
+git config core.hooksPath .githooks
+echo "Git pre-commit kontrol kancasi etkinlestirildi."

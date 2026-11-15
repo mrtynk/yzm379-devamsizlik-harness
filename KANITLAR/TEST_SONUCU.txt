@@ -1,0 +1,9 @@
+Komut: ruby test/ogrenci_test.rb
+
+..........
+
+10 runs, 26 assertions, 0 failures, 0 errors, 0 skips
+
+Komut: bash bin/kontrol
+
+10 runs, 26 assertions, 0 failures, 0 errors, 0 skips

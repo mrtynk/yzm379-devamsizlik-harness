@@ -1,0 +1,6 @@
+Görev tamamlandı.
+
+- [ogrenci.rb](C:/Users/MERT/OneDrive/Desktop/DestekFlow_Codex_Baslangic/destekflow/teslim/yzm379-devamsizlik-harness/lib/ogrenci.rb): doğrulamalar ve `define_method` durum sorguları eklendi.
+- [devamsizlik_kontrol.rb](C:/Users/MERT/OneDrive/Desktop/DestekFlow_Codex_Baslangic/destekflow/teslim/yzm379-devamsizlik-harness/lib/devamsizlik_kontrol.rb): açık lambda kuralları eklendi.
+- `ruby test/ogrenci_test.rb`: **10 test, 26 assertion, 0 hata**
+- `bin/kontrol`: **başarılı**
