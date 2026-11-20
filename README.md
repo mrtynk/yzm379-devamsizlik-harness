@@ -38,7 +38,7 @@ lib/ogrenci.rb                 Açık veri sözleşmesi ve durum sorguları
 lib/devamsizlik_kontrol.rb     Üç açık lambda kuralı
 test/ogrenci_test.rb           Minitest sensörleri ve sınır vakaları
 AGENTS.md                      Kısa, projeye özel agent anayasası
-CLAUDE.md                      AGENTS.md yönlendirmesi
+CLAUDE.md                      AGENTS.md sembolik bağı
 bin/kontrol                    Test + yasak yapı doğrulama kancası
 bin/kur                        Git pre-commit kancasını etkinleştirir
 RATCHET_LOG.md                 Gerçek hata → kalıcı kural/sensör günlüğü
@@ -75,4 +75,4 @@ Son test çıktısı: [TEST_SONUCU.txt](KANITLAR/TEST_SONUCU.txt)
 - Dolar cinsinden gerçek agent maliyeti ölçülemedi.
 - A koşusu kod üretmediği için `> 3`, `method_missing` veya monkey patch hatalarını gerçekten yapmış gibi gösteren kayıt yoktur.
 - İki koşuluk deney, farklı modeller veya çoklu tekrarlar arasında bilimsel performans karşılaştırması değildir.
-- Windows ortamı yönetici yetkisi olmadan sembolik bağ oluşturmayı reddetti. Ders slaytında belirtilen taşınabilir yedek kullanıldı: `CLAUDE.md` içeriği tek satır `@AGENTS.md`.
+- Windows, sembolik bağları yerel çalışma ağacında hedef yol metni olarak gösterebilir; Git deposunda `CLAUDE.md`, `AGENTS.md` hedefine işaret eden gerçek sembolik bağ (`120000` modu) olarak kayıtlıdır.
